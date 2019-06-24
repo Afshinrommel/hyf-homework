@@ -1,0 +1,94 @@
+<html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <title>My first try to make html</title>
+
+</head>
+<style>
+
+    </style>
+
+
+<body>
+<script>
+	var rowi =  24;
+	var columni = 2*rowi - 1;
+	var myArray=new Array(rowi)
+	
+	for(i=0;i<rowi;i++){
+		myArray[i]=new Array(columni);
+		}
+	
+	for (var i =0; i<rowi;i++)
+{
+for(var j =0; j<columni;j++)
+{
+    myArray[i][j] = 0;
+}}
+
+x1 = Math.round(columni/2);
+//document.write(x1);
+x1 = x1 -1 ;
+myArray[0][x1] = 1;
+
+
+
+for (var i = 1;i<rowi;i++){
+for (var j = 0;j<columni;j++){
+if (j===0){
+	myArray[i][j]=Number( myArray[i-1][j+1]);
+	}
+
+	if (j===columni-1){
+	myArray[i][j]=Number(myArray[i-1][j-1]);
+	}
+	if(j !==0 && j !=columni-1) {
+		myArray[i][j]=Number(myArray[i-1][j+1]) +Number(myArray[i-1][j-1]);
+}
+
+	
+	}	
+	}
+
+	
+	
+for (var i =0; i<rowi;i++)
+{
+	for(var j =0; j<columni;j++)	{
+	if( myArray[i][j] == "0"){
+		 myArray[i][j] = " ";
+		}
+		}
+}
+	
+	
+
+
+for (var i =0; i<rowi;i++)
+{
+for(var j =0; j<columni;j++)
+{document.write(myArray[i][j]+"&ensp;");
+}
+document.write("<br/>");
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+</script>
+        </body>
+        </html>
+
+
+
+
+ 
+
+   
+
+

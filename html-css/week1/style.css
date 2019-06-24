@@ -1,0 +1,132 @@
+.total {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color:seashell ;
+    }
+    .ad {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;font-weight: bold;
+    }
+    .letter {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;font-weight: bold;
+    }
+    .phone {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;font-weight: bold;
+    }
+    .browser{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;font-weight: bold;
+    }
+    .education{
+    font-family: Monospace;
+    font-size: 18px;
+    padding-left: 25px;
+    }
+    .work{
+    font-family: Monospace;
+    font-size: 18px;
+    padding-left: 15px;
+    }
+    .interest{
+    font-family: Monospace;
+    font-size: 18px;
+    padding-left: 15px;
+    color: red;
+    font-weight: bold
+    }
+    #AMA{
+    padding-right: 20px;
+    float: auto;
+    width: 44px;
+    }
+    #iust{
+    padding-right: 20px;
+    float: auto;
+    width:44px;
+    }
+    #bntu{
+    padding-right: 20px;
+    float: auto;
+    width:44px;
+    }
+    #azad{
+    padding-right: 20px;
+    float: auto;
+    width : 48px;
+    }
+    #NEGAR{
+    padding-right: 20px;
+    float: auto;
+    width: 40px;
+    height:38px;
+    }
+    #FESI{
+    padding-right: 20px;
+    float: auto;
+    width :38px;
+    height :38px;
+    }
+    #BEKHRAD{
+    padding-right: 15px;
+    float: auto;
+    width: 34px;
+    height:38px;
+    }
+    #blank{
+    list-style-type:none;
+    padding-left: 15px;
+    }
+    #greenphont{
+    color:rgb(0, 49, 0);
+    }
+    .workexperince{
+    list-style-type:none;
+    padding-left: 30px;
+    }
+    .educationqualification{
+    list-style-type:none;
+    padding-left: 30px;
+    color:rgb(0, 49, 0);
+    }
+    #aboutme{
+    padding-left: 15px;
+    padding-top: 230px;
+    }
+    #introduction{      
+    padding-right:35px;
+    padding-left: 35px;
+    padding-top:0px;
+    padding-bottom:15px;
+    font-weight:bold;
+    font-size: 20px;
+    text-align: justify;
+    }
+    #myimage{
+    float:left;
+    width:250px;
+    margin-right:66px;
+    }
+    h2{
+    padding-left: 15px;
+    }
+    #linkout{
+    float: right;
+    }
+    .mains{
+    float:auto; 
+    height: 30px;
+    width: 150;
+    font-family: Monospace;
+    padding-top:20px;
+    }
+    #searchengine{
+       padding-right:20px;
+    }
+   #end{
+       text-align: center;
+   }

@@ -1,0 +1,45 @@
+			#map {
+			  height: 400px;
+			  width: 100%;
+			}
+body {
+    background-color:lightgoldenrodyellow;
+	 margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+	}
+
+	.log{
+		background-color:rgb(238, 235, 52);
+		left: 350px;
+		top:50px;
+		width: 180px;
+		font-size: 18px;
+		position: absolute;
+	}
+	.example{
+		background-color: rgb(238, 158, 185);
+		left: 550px;
+		top:50px;
+		width: 180px;
+		font-size: 18px;
+		position: absolute;
+	}
+	.inputNumber{
+		background-color:cornsilk;
+		left: 750px;
+		top: 50px;
+		width: 180px;
+		font-size: 18px;
+		position: absolute;
+	}
+ .mapShowbyCode{
+	background-color:grey;
+	left: 550px;
+	top: 620px;
+	width: 180px;
+	font-size: 18px;
+	position: absolute;
+ }
+ 

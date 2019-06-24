@@ -1,0 +1,1001 @@
+ID,CODELESSON,LESSON,VALUELESSON
+100636,1230800,Help Desk Operator,4
+100654,100200,Sales Associate,1
+100663,105200,Sales Representative,3
+100672,574900,Sales Associate,3
+100690,2503400,Assistant Professor,2
+100706,105500,GIS Technical Architect,3
+100724,100500,Community Outreach Specialist,4
+100751,105100,Research Associate,2
+100760,100700,Paralegal,2
+100812,100800,Budget/Accounting Analyst II,2
+100830,831000,Sales Associate,4
+100858,100900,Media Manager IV,4
+100919,570400,Web Designer II,3
+100937,101200,Systems Administrator III,4
+100964,573301,Statistician I,2
+101019,2319500,Database Administrator I,1
+101028,1218200,Systems Administrator II,2
+101037,573600,Programmer II,2
+101073,1055400,Assistant Media Planner,3
+101107,569800,Biostatistician I,3
+101116,446300,Accountant II,4
+101143,101500,Financial Analyst,1
+101161,106000,Chief Design Engineer,4
+101189,100300,Marketing Manager,4
+101198,100301,Sales Representative,2
+101204,100302,Assistant Professor,2
+101213,100303,Programmer I,4
+101231,446200,Physical Therapy Assistant,4
+101240,101700,Actuary,2
+101268,446201,Software Test Engineer II,1
+101286,101800,Desktop Support Technician,4
+101295,787100,Software Test Engineer I,1
+101301,569900,Community Outreach Specialist,3
+101347,570500,Marketing Assistant,3
+101365,1019300,Product Engineer,4
+101435,101900,Librarian,1
+101444,2525400,Speech Pathologist,4
+101453,2199700,Safety Technician II,3
+101462,526000,Electrical Engineer,1
+101480,102000,Quality Engineer,3
+101499,102100,Recruiting Manager,3
+101505,102200,Structural Engineer,2
+101514,101300,Occupational Therapist,2
+101523,569300,VP Product Management,1
+101541,102300,Librarian,3
+101569,105900,Environmental Tech,4
+101587,102400,Software Engineer I,4
+101602,898800,GIS Technical Architect,3
+101648,102600,Automation Specialist II,3
+101657,2205500,Civil Engineer,2
+101675,102800,Registered Nurse,1
+101693,102900,Assistant Manager,3
+101709,100400,Media Manager II,2
+101736,569700,Senior Editor,1
+101754,573302,Assistant Professor,4
+101879,101600,Information Systems Manager,1
+101897,103100,Software Consultant,1
+101903,569702,Internal Auditor,2
+101912,103300,Senior Financial Analyst,4
+101949,103400,Quality Engineer,3
+101958,2296000,Professor,4
+101994,569200,VP Marketing,3
+102030,103000,Executive Secretary,3
+102049,103600,Administrative Assistant II,2
+102067,569100,Speech Pathologist,1
+102076,103800,Health Coach I,3
+102094,105700,Media Manager I,1
+102100,001057A1,Payment Adjustment Coordinator,3
+102216,1123700,Budget/Accounting Analyst I,3
+102234,104100,Product Engineer,2
+102261,2270400,Editor,1
+102270,104400,Nurse,2
+102298,104600,Financial Advisor,1
+102313,573400,Research Associate,3
+102322,104800,Librarian,4
+102331,104703,Occupational Therapist,2
+102359,104900,Assistant Media Planner,3
+102368,104700,Database Administrator I,3
+102377,105000,Chemical Engineer,3
+102395,2170600,Payment Adjustment Coordinator,4
+102410,001052A1,Registered Nurse,4
+102429,573300,Accountant III,4
+102526,2326600,Paralegal,2
+102553,1146200,Executive Secretary,1
+102614,106300,Research Assistant IV,3
+102632,106500,Registered Nurse,3
+102669,106100,Chief Design Engineer,3
+102711,3160300,Electrical Engineer,2
+102845,2576900,VP Marketing,2
+103246,2583300,Clinical Specialist,1
+103361,011462A1,Internal Auditor,2
+103440,106200,Programmer I,1
+103501,2541000,Financial Analyst,4
+103644,2295000,Human Resources Manager,3
+103723,2174900,Automation Specialist II,2
+103732,1293700,Nurse Practicioner,4
+103741,886500,Staff Scientist,4
+103778,107000,Developer III,1
+103787,2199900,VP Product Management,3
+103811,2317800,Recruiting Manager,3
+103820,2280400,Account Executive,1
+103893,2100600,Registered Nurse,1
+103909,2100611,Nurse,2
+103927,2100607,Accountant I,2
+103945,3120300,Librarian,3
+103954,886400,Developer I,3
+103963,1084700,VP Marketing,1
+104018,2200000,Speech Pathologist,2
+104090,2218800,Human Resources Manager,2
+104151,108100,Senior Sales Associate,4
+104160,107100,Software Engineer II,2
+104179,108300,Media Manager III,3
+104188,2491500,Senior Cost Accountant,2
+104230,1073900,Recruiter,1
+104294,2561900,Data Coordiator,3
+104346,728300,Speech Pathologist,2
+104364,945100,Quality Control Specialist,1
+104391,2280500,Analyst Programmer,1
+104425,107200,Staff Accountant I,3
+104434,1180800,Programmer Analyst IV,4
+104443,1180801,Structural Analysis Engineer,2
+104504,2582700,Engineer III,2
+104522,2173300,Nurse,1
+104531,832200,Cost Accountant,2
+104568,1085800,Recruiting Manager,1
+104577,107300,Cost Accountant,1
+104708,107600,Computer Systems Analyst IV,2
+104717,107400,Food Chemist,3
+104805,2263100,Sales Representative,1
+104911,1218400,Account Representative II,3
+104957,945200,Staff Scientist,2
+104984,2521500,Senior Financial Analyst,1
+105048,008924A1,Assistant Media Planner,2
+105075,008924A2,Editor,3
+105109,892400,Mechanical Systems Engineer,3
+105118,2071200,Legal Assistant,1
+105127,2192300,Graphic Designer,4
+105145,830300,Database Administrator I,1
+105154,107700,Accounting Assistant I,2
+105163,2361100,Account Coordinator,3
+105172,2065200,General Manager,2
+105206,1186400,Executive Secretary,3
+105215,2100500,Senior Developer,4
+105242,3004700,Developer II,1
+105297,824600,Web Designer I,4
+105330,108200,Registered Nurse,2
+105349,1186200,Technical Writer,1
+105367,193701,Operator,2
+105419,1234300,Developer III,1
+105428,107800,Information Systems Manager,1
+105482,2623800,Senior Sales Associate,1
+105516,2098800,Senior Cost Accountant,3
+105525,726600,Senior Cost Accountant,4
+105534,2217100,Junior Executive,2
+105543,2217103,Clinical Specialist,3
+105589,2065300,Pharmacist,2
+105659,1168900,Teacher,4
+105668,2177500,Data Coordiator,3
+105677,2113800,Programmer I,1
+105710,2187401,Desktop Support Technician,3
+105747,830400,Research Assistant III,4
+105792,2146600,VP Sales,4
+105880,2181300,Clinical Specialist,3
+105899,711300,Associate Professor,3
+105987,446700,VP Marketing,3
+106023,1228200,VP Product Management,1
+106041,822100,Administrative Officer,1
+106050,3081200,Research Associate,4
+106102,2171500,Engineer III,2
+106111,2220300,Quality Engineer,2
+106148,107900,Staff Scientist,4
+106245,110100,Nurse,2
+106263,110900,Administrative Officer,2
+106281,3065100,Office Assistant I,2
+106306,108700,Senior Financial Analyst,3
+106315,3005100,Director of Sales,1
+106342,108800,Financial Analyst,4
+106351,3023400,Administrative Assistant I,2
+106360,2363500,Analyst Programmer,3
+106397,110800,Programmer Analyst I,2
+106412,108600,Senior Editor,4
+106449,109001,Speech Pathologist,2
+106458,109000,Occupational Therapist,2
+106467,108900,Database Administrator III,4
+106476,524900,Librarian,2
+106485,108500,Actuary,1
+106494,2538500,Civil Engineer,2
+106546,3105200,Administrative Officer,2
+106607,2260400,Assistant Media Planner,3
+106625,2052200,Administrative Assistant I,4
+106704,109200,Web Designer IV,3
+106713,109300,Financial Analyst,2
+106795,2220900,Senior Developer,3
+106801,525000,Data Coordiator,2
+106810,109500,Analyst Programmer,2
+106829,704400,Account Executive,2
+106838,3116800,Senior Sales Associate,4
+106847,704300,Project Manager,3
+106883,1226000,Quality Control Specialist,2
+106892,2272400,Data Coordiator,3
+106908,3124900,Research Nurse,3
+106935,531900,Technical Writer,1
+106944,2211800,Assistant Professor,1
+106980,1210500,Sales Representative,3
+106999,2073500,Information Systems Manager,4
+107017,2138800,Engineer III,4
+107035,109701,Senior Quality Engineer,3
+107044,109700,Media Manager II,1
+107053,2343900,Graphic Designer,4
+107071,109800,Community Outreach Specialist,4
+107080,109900,Media Manager III,3
+107099,3007100,Chemical Engineer,3
+107123,2330800,Paralegal,4
+107141,110000,Media Manager I,4
+107211,2525800,Legal Assistant,2
+107220,2341700,Compensation Analyst,1
+107266,3001300,Health Coach I,4
+107275,2287400,Dental Hygienist,4
+107293,1074100,Recruiter,2
+107318,2348200,Business Systems Development Analyst,4
+107327,1286000,Editor,1
+107363,2559600,Web Developer III,3
+107442,2284200,Statistician III,4
+107460,1226100,VP Product Management,1
+107479,2343100,Mechanical Systems Engineer,4
+107488,2073700,Tax Accountant,1
+107512,110200,Clinical Specialist,4
+107521,997600,VP Quality Control,2
+107549,2087000,Assistant Professor,3
+107558,109400,Engineer I,1
+107585,524500,Assistant Manager,3
+107600,110300,Director of Sales,3
+107619,110400,Budget/Accounting Analyst II,2
+107637,570700,Payment Adjustment Coordinator,1
+107646,2160000,Junior Executive,1
+107655,2202400,Analog Circuit Design manager,3
+107664,2075300,Account Representative II,4
+107673,2120500,Senior Quality Engineer,3
+107725,573200,Cost Accountant,4
+107734,110401,Clinical Specialist,3
+107743,2111100,Executive Secretary,4
+107789,792100,Account Representative III,1
+107831,2569600,Teacher,4
+107840,110500,Desktop Support Technician,3
+107877,110600,Community Outreach Specialist,2
+107886,2339800,Electrical Engineer,3
+107947,426900,Librarian,3
+107974,2074600,Electrical Engineer,3
+107983,110700,Structural Analysis Engineer,1
+107992,773800,Quality Control Specialist,3
+108092,111000,Accounting Assistant I,4
+108232,753100,Cost Accountant,3
+108250,2120900,Senior Developer,3
+108287,3098700,Administrative Assistant I,1
+108348,2342400,Nurse,2
+108393,760500,Pharmacist,1
+108649,2258600,Dental Hygienist,2
+108667,672000,Dental Hygienist,4
+108807,111100,Clinical Specialist,2
+108852,2106900,Tax Accountant,2
+108861,112000,Statistician I,1
+108870,2222000,Physical Therapy Assistant,4
+108977,1307400,Software Engineer IV,1
+108995,927900,Project Manager,1
+109013,2113601,Junior Executive,4
+109040,2241800,Account Representative I,1
+109068,3062200,Accountant III,1
+109086,2099200,Web Designer IV,4
+109208,123200,Food Chemist,2
+109332,1206100,Geological Engineer,3
+109350,111300,Assistant Manager,2
+109651,111600,Analog Circuit Design manager,2
+109721,902200,Data Coordiator,2
+109730,2553500,Paralegal,2
+109749,2553100,Operator,4
+109785,111700,Operator,4
+109819,111800,Media Manager II,2
+109891,2180600,Nurse,4
+109907,111900,Structural Analysis Engineer,3
+109934,705000,Sales Representative,4
+110051,112100,Sales Associate,4
+110097,112200,Analog Circuit Design manager,3
+110103,1294400,Staff Scientist,4
+110176,2065500,Senior Financial Analyst,2
+110185,112300,Civil Engineer,4
+110194,2543400,Accountant I,2
+110219,716400,Media Manager I,4
+110246,807300,GIS Technical Architect,3
+110307,2237200,Senior Developer,3
+110316,1215400,Account Executive,2
+110325,1256201,Administrative Officer,2
+110334,112400,Actuary,1
+110361,112500,Community Outreach Specialist,1
+110370,112700,Sales Representative,2
+110398,394700,Help Desk Technician,2
+110404,113100,Recruiting Manager,4
+110413,113300,Web Developer III,3
+110422,114300,Nuclear Power Engineer,2
+110440,2511100,Professor,2
+110459,1001300,Legal Assistant,4
+110468,1111700,Accounting Assistant IV,1
+110477,1188100,Mechanical Systems Engineer,2
+110486,799300,Research Assistant IV,3
+110495,115700,Geological Engineer,2
+110510,114200,Chemical Engineer,1
+110529,114400,Associate Professor,4
+110538,114600,Computer Systems Analyst I,2
+110547,114100,Account Coordinator,2
+110556,114700,Marketing Assistant,4
+110565,113700,Chemical Engineer,4
+110574,113800,Dental Hygienist,4
+110583,113900,Analog Circuit Design manager,3
+110592,114000,Geologist I,1
+110608,115300,Statistician II,1
+110617,115000,Programmer III,1
+110635,131200,Quality Engineer,4
+110644,131300,Help Desk Operator,2
+110653,131400,Librarian,1
+110662,131500,Account Executive,1
+110671,131600,Recruiter,2
+110680,131700,Data Coordiator,2
+110699,131900,Biostatistician IV,1
+110705,132000,Account Coordinator,2
+110714,132100,Recruiting Manager,2
+110778,2267600,Occupational Therapist,1
+110875,2065700,Design Engineer,1
+110893,2515500,Marketing Manager,3
+110918,884400,Developer I,4
+110945,2110800,Tax Accountant,4
+110981,113500,Chief Design Engineer,3
+111009,2220200,Help Desk Technician,2
+111054,1186500,Design Engineer,1
+111081,113200,Health Coach II,3
+111188,113400,Quality Control Specialist,2
+111230,1256200,Paralegal,4
+111300,3080500,Technical Writer,1
+111391,1310300,Operator,3
+111434,697300,Quality Control Specialist,2
+111461,890300,Systems Administrator I,1
+111513,2125000,Account Representative IV,2
+111638,673100,Teacher,2
+111708,2332809,Graphic Designer,3
+111717,2332800,Mechanical Systems Engineer,2
+111726,2332810,Internal Auditor,1
+111744,2332814,Computer Systems Analyst IV,3
+111762,2332819,Human Resources Manager,3
+111771,2332808,Structural Analysis Engineer,1
+111799,2332813,Computer Systems Analyst III,2
+111887,116100,Speech Pathologist,1
+111896,1011100,Information Systems Manager,3
+111920,116200,Social Worker,4
+111939,116300,Environmental Specialist,1
+111948,116400,Design Engineer,4
+111966,1036500,Account Coordinator,4
+112048,427600,Social Worker,2
+112075,2070500,Food Chemist,3
+112084,1203100,Nurse Practicioner,4
+112127,116500,Geological Engineer,4
+112172,116600,Nurse Practicioner,3
+112190,450201,Assistant Professor,3
+112251,116900,Speech Pathologist,3
+112260,117000,Account Executive,3
+112288,2497301,Chemical Engineer,2
+112312,2147400,Health Coach II,2
+112367,2309500,Account Representative IV,4
+112385,2063500,Paralegal,2
+112394,117700,Geologist II,3
+112446,729600,Nurse,1
+112455,2220001,Teacher,2
+112516,1169600,Human Resources Manager,3
+112525,2482700,Food Chemist,3
+112561,770700,Speech Pathologist,4
+112570,2110200,GIS Technical Architect,3
+112686,118800,Research Associate,2
+112701,959100,Web Designer IV,4
+112710,3063000,VP Product Management,4
+112729,3064200,Computer Systems Analyst IV,2
+112756,2313800,Analyst Programmer,4
+112774,2277000,Research Nurse,2
+112783,722900,Occupational Therapist,1
+112826,119000,Electrical Engineer,3
+113096,753600,Safety Technician I,3
+113102,3120200,Librarian,3
+113111,927200,Senior Editor,2
+113193,119200,Clinical Specialist,1
+113218,2111300,Geological Engineer,2
+113236,119300,Registered Nurse,4
+113245,1022900,Budget/Accounting Analyst II,3
+113281,2257800,Speech Pathologist,4
+113333,448000,Chief Design Engineer,2
+113528,119400,Senior Financial Analyst,3
+113537,3025600,Nurse Practicioner,2
+113573,118200,Environmental Specialist,1
+113582,2298000,Junior Executive,2
+113607,2332900,Software Engineer III,4
+113634,119100,Senior Developer,1
+113661,2141300,Pharmacist,4
+113698,119600,Web Developer III,4
+113704,129600,Recruiter,1
+113713,915800,Librarian,1
+113731,724600,Senior Editor,4
+113856,2226000,Staff Accountant I,4
+113865,1044500,Sales Associate,2
+113908,2086400,Civil Engineer,3
+113953,889500,Junior Executive,3
+113980,119700,VP Sales,1
+113999,2165000,Biostatistician II,4
+114008,2165001,Staff Accountant I,3
+114044,2091200,Help Desk Operator,3
+114062,1265100,Technical Writer,3
+114071,1265000,Research Assistant III,3
+114080,2221300,Nuclear Power Engineer,4
+114114,2609000,Sales Associate,1
+114123,903200,Geological Engineer,3
+114266,1245201,Software Test Engineer IV,2
+114354,1111200,Senior Sales Associate,2
+114372,2234300,Automation Specialist IV,4
+114390,1111202,General Manager,3
+114415,1111203,Recruiter,3
+114433,859700,VP Product Management,2
+114460,725300,Operator,4
+114503,712600,Electrical Engineer,4
+114549,2096100,Senior Quality Engineer,2
+114628,1298500,Geologist III,2
+114716,119900,Human Resources Assistant I,4
+114761,2230900,Administrative Assistant IV,2
+114789,130700,Research Assistant IV,3
+114813,125300,Office Assistant III,1
+114840,120000,Community Outreach Specialist,4
+114859,120100,Financial Advisor,3
+114886,1202702,Safety Technician III,4
+114895,1202700,Assistant Professor,3
+114901,1202703,Environmental Specialist,3
+114910,1304600,Accountant II,1
+114938,120200,Nurse Practicioner,4
+114947,2231900,Help Desk Operator,2
+115001,120300,Librarian,1
+115010,2338500,Statistician I,4
+115047,120400,Research Assistant I,1
+115074,001205A6,Environmental Tech,3
+115083,120500,Computer Systems Analyst III,4
+115126,120600,Senior Cost Accountant,4
+115214,120700,Associate Professor,2
+115296,120800,Professor,4
+115357,2211000,Human Resources Assistant I,4
+115384,1037500,Senior Editor,4
+115393,120900,Project Manager,1
+115409,117100,Environmental Specialist,2
+115427,853200,VP Quality Control,4
+115436,729400,Programmer Analyst I,3
+115445,121000,Sales Representative,4
+115454,747700,Environmental Specialist,1
+115472,809300,Structural Engineer,2
+115481,2262300,Social Worker,3
+115490,2593200,Pharmacist,2
+115515,723400,Junior Executive,2
+115533,2079800,Senior Editor,1
+115542,2187500,Account Executive,2
+115658,2285100,Web Developer I,1
+115728,118300,Software Test Engineer III,4
+115755,114900,Account Representative IV,3
+115773,121200,Database Administrator IV,1
+115782,2496000,Physical Therapy Assistant,2
+115791,2084002,Sales Associate,3
+115861,121400,Marketing Manager,2
+115931,2128300,Business Systems Development Analyst,1
+115940,3117100,Actuary,2
+116040,2312400,Cost Accountant,3
+116226,2520300,Office Assistant I,1
+116235,2222903,Engineer IV,4
+116280,2521300,Staff Scientist,3
+116350,2255400,Senior Cost Accountant,3
+116439,2539500,VP Marketing,4
+116466,2291600,Account Executive,4
+116475,2291500,Analyst Programmer,2
+116484,2321900,Automation Specialist IV,1
+116563,1202600,Quality Engineer,3
+116581,023248A1,Engineer IV,3
+116606,2228600,Geologist I,3
+116615,2324800,Nuclear Power Engineer,1
+116624,1033300,Assistant Media Planner,1
+116712,448400,Biostatistician III,2
+116846,274100,Research Assistant III,1
+117052,130800,Research Nurse,4
+117104,2270600,Financial Advisor,3
+117113,2327600,Cost Accountant,1
+117140,121600,Recruiter,2
+117168,2330500,Software Consultant,2
+117195,1290700,Internal Auditor,3
+117238,1301000,Health Coach IV,2
+117247,126600,Librarian,3
+117274,121700,VP Quality Control,3
+117520,2228500,Internal Auditor,4
+117593,1082500,Biostatistician IV,1
+117627,121500,Director of Sales,4
+117636,121800,Account Representative I,2
+117645,121900,Paralegal,3
+117672,122900,Nuclear Power Engineer,4
+117690,122400,Senior Developer,1
+117706,122600,Media Manager II,2
+117715,704700,General Manager,2
+117724,122700,Software Consultant,2
+117733,122800,Quality Control Specialist,2
+117751,122000,Project Manager,3
+117788,122300,Paralegal,4
+117803,616500,Help Desk Technician,1
+117867,1255000,Administrative Officer,2
+117894,1034000,Physical Therapy Assistant,4
+117928,723600,Dental Hygienist,4
+117937,1164901,Geological Engineer,2
+117946,1164900,VP Quality Control,3
+118116,1231600,Community Outreach Specialist,3
+118125,1231700,Web Designer I,2
+118143,714200,Marketing Assistant,4
+118161,1324000,Assistant Manager,2
+118189,2546400,Marketing Manager,2
+118198,1291200,Environmental Tech,1
+118259,2351900,Web Designer IV,2
+118277,2091700,Administrative Officer,3
+118286,2549000,Pharmacist,3
+118301,2204700,Geologist III,3
+118347,117800,Recruiting Manager,3
+118356,747600,GIS Technical Architect,4
+118374,745700,Geological Engineer,4
+118383,898100,Assistant Professor,2
+118392,745600,Geological Engineer,4
+118417,721000,Engineer I,2
+118426,725800,Business Systems Development Analyst,4
+118435,1076800,Associate Professor,2
+118444,722600,Sales Associate,2
+118453,721900,Occupational Therapist,3
+118480,720500,Analog Circuit Design manager,4
+118541,1047400,Senior Financial Analyst,4
+118569,2296500,Biostatistician IV,3
+118587,395200,Accounting Assistant I,2
+118684,1167200,Programmer Analyst II,3
+118693,123600,Graphic Designer,4
+118709,1036800,Teacher,3
+118718,123700,Pharmacist,2
+118772,126700,Office Assistant III,2
+118888,123800,Pharmacist,2
+118897,1322000,Recruiting Manager,2
+118912,123900,Software Test Engineer III,2
+118921,2338700,Help Desk Technician,2
+118930,2119100,Account Representative I,1
+118958,720400,Environmental Specialist,1
+118967,2539100,Research Associate,1
+118976,124000,Junior Executive,4
+118985,847800,Product Engineer,3
+118994,2185800,Recruiter,2
+119030,1307800,VP Quality Control,4
+119058,124100,Senior Financial Analyst,1
+119067,124200,Business Systems Development Analyst,2
+119137,711500,Environmental Specialist,3
+119155,2205700,Financial Advisor,2
+119164,124500,Design Engineer,2
+119173,124300,Structural Engineer,1
+119216,124600,Assistant Manager,2
+119270,2161800,Administrative Assistant III,2
+119331,124700,Environmental Tech,2
+119340,1102400,Occupational Therapist,1
+119359,1110900,Senior Financial Analyst,2
+119368,760600,Clinical Specialist,1
+119438,1112100,Senior Developer,3
+119456,1112300,Nurse Practicioner,3
+119465,809000,Computer Systems Analyst II,1
+119492,1111600,Health Coach IV,2
+119508,449400,Technical Writer,3
+119544,2518400,Programmer Analyst IV,4
+119553,2542300,Paralegal,3
+119605,1146000,Physical Therapy Assistant,1
+119678,131000,Editor,4
+119702,001120A1,Assistant Media Planner,2
+119711,1083100,Speech Pathologist,1
+119775,3043900,Research Associate,3
+119827,714800,Recruiter,2
+119836,1243600,Help Desk Technician,3
+119845,713000,Social Worker,4
+119951,718700,Director of Sales,2
+120032,1299000,Food Chemist,2
+120069,1287200,Payment Adjustment Coordinator,4
+120078,1170700,Nurse Practicioner,3
+120087,2591600,Senior Quality Engineer,1
+120184,117900,VP Sales,2
+120254,124900,Nurse,3
+120272,1298900,Media Manager II,1
+120290,448100,Community Outreach Specialist,1
+120342,125000,Product Engineer,2
+120351,1159800,Account Executive,3
+120403,125100,Senior Developer,1
+120421,1284200,VP Quality Control,4
+120537,125200,Safety Technician IV,4
+120661,793000,Senior Editor,4
+120698,2138300,Editor,3
+120704,3084000,VP Sales,3
+120740,125400,Associate Professor,3
+120768,125500,Web Developer IV,3
+120795,125600,Help Desk Technician,1
+120856,793100,Physical Therapy Assistant,1
+120865,125800,Nurse,3
+120883,132900,Sales Associate,3
+120917,1307700,Media Manager I,4
+120944,2184900,Tax Accountant,4
+120953,125900,Programmer Analyst II,1
+120962,2549001,Software Test Engineer I,2
+120971,126000,Actuary,3
+121008,2255600,Computer Systems Analyst III,1
+121017,2059800,Librarian,1
+121044,126100,Human Resources Manager,4
+121071,449000,Legal Assistant,3
+121150,1014900,General Manager,2
+121257,117200,Food Chemist,4
+121275,2304300,Information Systems Manager,3
+121309,126200,Teacher,2
+121345,117300,Clinical Specialist,3
+121363,126800,Registered Nurse,1
+121381,1162600,Data Coordiator,2
+121433,1298400,Health Coach IV,3
+121619,128400,Systems Administrator III,2
+121628,1044100,Information Systems Manager,2
+121691,132200,Accounting Assistant I,1
+121707,118500,VP Quality Control,4
+121859,720300,Administrative Officer,1
+121868,1309500,Teacher,1
+121886,126900,Food Chemist,3
+121901,127000,Systems Administrator I,3
+121992,1294200,Product Engineer,2
+122010,1287300,Electrical Engineer,2
+122117,3109500,Senior Sales Associate,4
+122180,123300,Sales Associate,2
+122205,891800,Pharmacist,3
+122223,129900,Physical Therapy Assistant,2
+122287,2619300,Senior Quality Engineer,1
+122296,701200,Pharmacist,1
+122339,127300,VP Accounting,4
+122366,2208700,Structural Engineer,1
+122375,127500,Paralegal,4
+122384,1182000,Senior Financial Analyst,4
+122409,115100,Programmer II,3
+122436,1039500,Assistant Professor,4
+122454,394800,Health Coach III,2
+122506,127800,Account Representative IV,2
+122597,115400,Senior Editor,3
+122603,127900,Sales Associate,1
+122612,132500,Staff Scientist,2
+122630,2141900,Business Systems Development Analyst,4
+122649,2500000,Systems Administrator II,4
+122658,128000,Analyst Programmer,3
+122685,2120700,Administrative Officer,1
+122694,2313500,Database Administrator I,4
+122728,128100,Health Coach IV,3
+122746,128200,Internal Auditor,2
+122755,115500,Assistant Media Planner,3
+122791,118100,Automation Specialist I,2
+122816,1011800,Nurse Practicioner,2
+122834,2577900,Cost Accountant,3
+122843,3072700,Research Nurse,4
+122852,2578000,Technical Writer,2
+122889,128500,Environmental Specialist,1
+122931,132600,Nurse,3
+122940,2057800,Teacher,2
+122977,128600,Biostatistician I,4
+123013,128700,Software Test Engineer II,2
+123068,1112200,Research Nurse,1
+123095,2120600,Marketing Assistant,1
+123110,919800,Mechanical Systems Engineer,1
+123165,117400,Physical Therapy Assistant,2
+123208,719000,Senior Cost Accountant,2
+123217,118600,Account Coordinator,4
+123299,128900,Tax Accountant,1
+123341,129000,Information Systems Manager,1
+123350,2064300,Senior Developer,4
+123378,2599900,Assistant Media Planner,3
+123396,2188400,Pharmacist,2
+123457,129100,Mechanical Systems Engineer,3
+123484,118700,Programmer I,2
+123493,950900,Information Systems Manager,1
+123509,771300,Staff Accountant II,1
+123527,127200,Senior Sales Associate,3
+123536,127700,Cost Accountant,3
+123554,130200,Data Coordiator,2
+123563,129200,Data Coordiator,3
+123572,115600,Internal Auditor,3
+123581,2608900,Senior Developer,1
+123633,2597300,Financial Advisor,3
+123642,2277400,Systems Administrator II,1
+123651,129300,Legal Assistant,2
+123679,807100,Chemical Engineer,3
+123800,129400,Data Coordiator,4
+123855,129901,Junior Executive,3
+123916,408000,Help Desk Operator,4
+123943,123000,Structural Analysis Engineer,1
+123952,2075800,Quality Engineer,1
+123961,132800,Developer III,4
+123970,129500,Human Resources Manager,3
+124113,130900,Safety Technician I,2
+124283,128800,Web Developer IV,4
+124292,2358000,Financial Advisor,1
+124344,2054900,Automation Specialist III,3
+124399,792600,Computer Systems Analyst I,2
+124432,2359200,Account Coordinator,3
+124496,2497300,Registered Nurse,4
+124502,2580700,Design Engineer,1
+124627,1092303,Programmer III,4
+124645,1294000,Budget/Accounting Analyst III,2
+124681,2559300,Human Resources Assistant IV,2
+124706,853700,Information Systems Manager,3
+124779,1244601,Executive Secretary,1
+124885,115800,Human Resources Manager,1
+124937,760700,Community Outreach Specialist,2
+124946,989000,Data Coordiator,2
+125028,133400,Media Manager II,1
+125082,2128200,Technical Writer,3
+125091,133500,Structural Analysis Engineer,1
+125170,2242700,Food Chemist,2
+125231,2504200,Sales Representative,3
+125268,429700,Senior Cost Accountant,2
+125329,2061700,Dental Hygienist,4
+125462,117600,Administrative Assistant IV,2
+125471,859600,Marketing Assistant,4
+125480,2052300,Compensation Analyst,1
+125499,133800,Project Manager,3
+125505,1057900,Help Desk Technician,3
+125523,2318000,Sales Representative,2
+125532,974800,GIS Technical Architect,3
+125718,2276800,Senior Financial Analyst,4
+125727,134100,Quality Control Specialist,2
+125763,134200,Marketing Manager,3
+125897,134300,Community Outreach Specialist,3
+126012,884600,Database Administrator IV,1
+126030,1083200,Clinical Specialist,3
+126049,1085400,Assistant Manager,1
+126076,2262400,Office Assistant II,3
+126119,134400,Software Test Engineer I,1
+126164,2165200,Senior Financial Analyst,1
+126182,134500,Assistant Manager,1
+126207,758200,Payment Adjustment Coordinator,3
+126261,2059400,Analyst Programmer,4
+126289,134600,Administrative Assistant I,4
+126359,1267000,Programmer III,2
+126386,617500,Nuclear Power Engineer,3
+126401,450300,Developer I,1
+126410,3013100,Geologist III,3
+126562,674000,Junior Executive,1
+126571,450800,Software Consultant,3
+126580,450900,Executive Secretary,2
+126605,729700,Staff Accountant IV,2
+126614,137000,Senior Sales Associate,2
+126669,940100,Design Engineer,2
+126678,134700,Assistant Professor,2
+126687,887100,Teacher,4
+126702,2078900,Web Developer IV,2
+126711,450600,Compensation Analyst,2
+126748,135900,Budget/Accounting Analyst I,3
+126775,134800,Assistant Professor,3
+126784,1157200,Junior Executive,4
+126793,3027800,Sales Associate,2
+126818,135000,Research Associate,4
+126827,1014800,Office Assistant III,4
+126854,1070900,Desktop Support Technician,4
+126863,2276900,Marketing Manager,3
+126872,2594300,Sales Representative,4
+126915,2156200,Legal Assistant,1
+126924,2188700,Internal Auditor,4
+126942,954200,Senior Cost Accountant,3
+126951,754700,Research Nurse,4
+126979,135200,Programmer I,3
+127024,754800,Quality Control Specialist,2
+127042,764800,Computer Systems Analyst II,4
+127060,137100,Systems Administrator III,3
+127149,2253701,Automation Specialist I,4
+127158,559600,Paralegal,1
+127185,135300,Professor,2
+127200,793300,Graphic Designer,4
+127219,2267500,Help Desk Technician,4
+127228,2518500,Electrical Engineer,3
+127273,135400,Senior Cost Accountant,1
+127316,1285000,Developer II,1
+127389,135500,Sales Associate,4
+127556,135800,VP Sales,4
+127565,136000,Structural Analysis Engineer,2
+127574,2162900,Software Consultant,2
+127617,998100,Software Engineer IV,1
+127653,2117500,Geologist I,4
+127680,405702,Information Systems Manager,2
+127699,405703,Social Worker,2
+127714,1300700,Office Assistant I,3
+127732,136100,VP Product Management,4
+127741,134900,Dental Hygienist,1
+127778,136200,Food Chemist,3
+127787,450700,Community Outreach Specialist,4
+127820,889600,Web Developer I,4
+127839,863500,Staff Accountant II,1
+127848,433500,Tax Accountant,2
+127884,2116300,Assistant Professor,2
+127909,954300,Biostatistician IV,1
+127918,136300,Teacher,4
+127945,764900,Senior Developer,2
+127990,2318100,Automation Specialist I,4
+128036,1073200,Compensation Analyst,2
+128045,136801,Technical Writer,3
+128106,136500,Paralegal,2
+128151,1287500,Senior Developer,2
+128179,2253700,Help Desk Operator,3
+128188,3066900,Community Outreach Specialist,4
+128203,2141100,Biostatistician III,3
+128258,136800,Chemical Engineer,1
+128328,136900,Systems Administrator I,2
+128337,2160600,Quality Engineer,4
+128391,137200,Editor,3
+128498,137400,Product Engineer,3
+128540,887300,Graphic Designer,3
+128577,1115000,Software Consultant,1
+128586,2512400,Help Desk Operator,2
+128674,2074000,VP Quality Control,3
+128683,940700,Pharmacist,2
+128726,618100,Librarian,1
+128744,141600,Nurse,1
+128762,2115100,Marketing Assistant,1
+128771,137800,Structural Engineer,4
+128887,1088700,Assistant Manager,3
+128896,2316600,Physical Therapy Assistant,1
+128902,137900,Media Manager III,4
+128957,1041700,Chief Design Engineer,4
+129002,730500,Compensation Analyst,4
+129020,141700,Executive Secretary,3
+129154,2244900,Automation Specialist III,1
+129181,2228800,Actuary,3
+129215,142500,Civil Engineer,1
+129242,138500,Operator,4
+129349,2112700,Operator,4
+129367,763500,Nurse Practicioner,4
+129428,280400,Payment Adjustment Coordinator,2
+129446,906500,Account Coordinator,1
+129482,2106600,Professor,1
+129491,138700,Product Engineer,2
+129525,142200,Senior Cost Accountant,2
+129534,138900,Business Systems Development Analyst,3
+129543,451300,Environmental Specialist,1
+129552,2143800,Project Manager,4
+129613,1287700,Executive Secretary,3
+129640,1291300,Mechanical Systems Engineer,4
+129659,2139400,Executive Secretary,1
+129686,3079400,VP Quality Control,2
+129695,139200,Budget/Accounting Analyst III,3
+129729,698200,Environmental Tech,4
+129756,803800,Computer Systems Analyst IV,1
+129774,139300,Human Resources Assistant III,4
+129808,976500,Engineer IV,3
+129817,139400,Computer Systems Analyst I,4
+129862,1278000,Web Developer II,4
+129880,887200,Senior Editor,3
+129899,887600,Cost Accountant,2
+129923,730300,Actuary,4
+129932,2202500,Account Coordinator,3
+129941,139700,Accounting Assistant IV,4
+129950,1296600,Financial Analyst,4
+129969,2112300,Product Engineer,3
+130004,139900,Community Outreach Specialist,4
+130040,139800,Technical Writer,2
+130086,618600,Programmer Analyst IV,4
+130110,745900,Clinical Specialist,2
+130129,887400,Geologist IV,2
+130147,1077904,Product Engineer,4
+130156,1077903,Sales Representative,4
+130165,1077902,Business Systems Development Analyst,1
+130174,1077900,Account Representative IV,1
+130183,140100,Electrical Engineer,1
+130208,2134400,Accounting Assistant IV,2
+130217,1053000,VP Sales,4
+130226,140200,Librarian,3
+130244,2077700,VP Product Management,1
+130253,140300,Design Engineer,1
+130305,618900,Operator,3
+130314,140900,Compensation Analyst,2
+130323,1228900,Internal Auditor,3
+130396,803700,Data Coordiator,2
+130448,619100,Geologist I,4
+130493,140600,Registered Nurse,2
+130509,1242500,Help Desk Technician,2
+130527,2228801,Operator,2
+130581,2546000,Senior Financial Analyst,2
+130590,141400,Structural Analysis Engineer,3
+130606,976400,Director of Sales,1
+130624,141500,Actuary,2
+130633,971600,VP Product Management,1
+130697,142400,Operator,1
+130776,138000,Sales Associate,2
+130785,2296100,Human Resources Manager,2
+130794,142600,Dental Hygienist,3
+130837,2125200,Senior Developer,4
+130873,3025800,Product Engineer,4
+130891,705300,Administrative Assistant III,2
+130907,1172700,Speech Pathologist,2
+130916,2144900,Software Engineer I,1
+130934,142800,Biostatistician I,3
+130943,143100,Budget/Accounting Analyst I,1
+130989,142900,Computer Systems Analyst I,2
+131061,2190400,Desktop Support Technician,2
+131098,143300,Director of Sales,3
+131113,794800,Mechanical Systems Engineer,4
+131159,143400,Help Desk Technician,1
+131283,143700,Office Assistant III,3
+131308,1195000,Business Systems Development Analyst,2
+131371,1202900,Teacher,2
+131380,13138000,Community Outreach Specialist,4
+131399,144100,Associate Professor,1
+131450,144300,GIS Technical Architect,3
+131469,144400,Speech Pathologist,2
+131496,144500,Web Developer IV,2
+131511,1266500,Media Manager III,2
+131520,144800,Registered Nurse,2
+131566,2279200,Office Assistant I,2
+131681,145200,Staff Accountant II,4
+131742,2588900,VP Sales,3
+131788,145600,Automation Specialist III,3
+131803,145900,Teacher,3
+131830,2132800,Paralegal,4
+131876,146000,Nuclear Power Engineer,4
+131946,2204400,Editor,4
+131973,146400,Database Administrator III,3
+132268,2346200,Quality Control Specialist,1
+132338,1019500,Technical Writer,4
+132374,1226300,Recruiting Manager,2
+132408,2159600,Executive Secretary,2
+132471,146600,Geological Engineer,1
+132523,1112700,Pharmacist,1
+132541,2517200,Desktop Support Technician,2
+132602,146700,VP Marketing,2
+132657,150500,Staff Scientist,1
+132666,2200100,Nurse,4
+132693,147000,VP Accounting,1
+132709,150000,Food Chemist,3
+132806,2245500,Staff Accountant III,2
+132842,1072401,Computer Systems Analyst III,3
+132851,147100,VP Accounting,4
+132879,2156700,Quality Control Specialist,4
+132903,395400,Junior Executive,2
+132976,2297000,Software Consultant,1
+133021,147200,Account Coordinator,1
+133085,147300,GIS Technical Architect,2
+133128,2142500,Geologist IV,4
+133155,1323400,Senior Financial Analyst,4
+133261,2614600,Database Administrator IV,2
+133386,147500,Sales Representative,3
+133465,1303904,Editor,3
+133492,148700,Pharmacist,3
+133508,147700,Mechanical Systems Engineer,4
+133526,147800,Geologist I,1
+133553,147900,Human Resources Assistant II,4
+133650,148000,Operator,3
+133669,148100,Geologist II,1
+133702,148400,Programmer I,1
+133711,789300,Account Representative II,1
+133739,848300,Analog Circuit Design manager,3
+133809,148200,Design Engineer,4
+133827,2569900,Recruiter,1
+133836,2569901,Structural Engineer,3
+133845,2089600,Account Executive,3
+133854,2275100,Programmer Analyst II,1
+133863,2172700,Legal Assistant,3
+133872,3115500,Accounting Assistant III,1
+133881,146900,VP Quality Control,3
+133942,2329900,Librarian,3
+133951,963500,Project Manager,4
+133960,148500,Actuary,4
+133979,148600,Associate Professor,2
+133997,2305800,Structural Engineer,4
+134042,2346300,Automation Specialist IV,3
+134079,148800,Software Engineer II,1
+134097,148900,Systems Administrator III,3
+134112,2218700,Programmer I,1
+134121,2598200,Software Consultant,1
+134130,153500,VP Sales,2
+134149,814600,Environmental Tech,3
+134228,2338400,Community Outreach Specialist,2
+134237,2362100,Staff Scientist,2
+134291,2307400,Recruiter,3
+134307,3079800,Administrative Officer,1
+134343,149000,Media Manager II,2
+134422,2325100,Statistician I,1
+134468,2558500,Administrative Assistant III,3
+134495,787000,Account Coordinator,4
+134510,2188900,Actuary,4
+134574,2279600,Office Assistant III,2
+134608,149300,Mechanical Systems Engineer,2
+134680,3031400,Geological Engineer,3
+134714,2257900,Research Assistant IV,4
+134723,2493500,Nuclear Power Engineer,2
+134811,887800,Occupational Therapist,4
+134866,2324100,Assistant Manager,4
+134875,2151100,Staff Accountant III,3
+134909,2286500,Assistant Professor,2
+134945,149500,Chemical Engineer,2
+135063,149700,Web Developer IV,4
+135081,2151900,Recruiting Manager,4
+135124,2597100,Research Assistant III,1
+135142,2287100,Financial Advisor,3
+135160,150100,Tax Accountant,2
+135179,87659321,Help Desk Technician,3

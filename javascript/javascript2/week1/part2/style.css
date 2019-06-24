@@ -1,0 +1,31 @@
+ 
+	
+   	body {
+    background-color:lightgreen
+	 margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 90px;
+	background-color:orange;
+	}
+	
+	
+	
+	
+	h{
+	border: 2px blue solid;
+	padding: 25px;
+	background-color:lightseagreen;
+	}
+	
+	li{
+		background-color:lightpink;
+		font-size:25px;
+		border:2px grey solid;
+		}
+	
+	ul{
+		background-color: pink;
+		font-size:25px;
+		border:2px grey solid;
+		}

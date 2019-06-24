@@ -1,0 +1,29 @@
+ 
+	
+   	body {
+    background-color:lightgoldenrodyellow;
+	 margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 90px;
+	background-color:(gainsboro)
+	}
+	
+	
+	h{
+	border: 2px blue solid;
+	padding: 25px;
+	background-color: yellow;
+	}
+	
+	li{
+		background-color:lightgreen;
+		font-size:25px;
+		border:2px grey solid;
+		}
+	
+	ul{
+		background-color:lightseagreen;
+		font-size:25px;
+		border:2px grey solid;
+		}

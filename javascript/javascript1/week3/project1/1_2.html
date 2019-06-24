@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="index.js"></script>
+</head>
+<body>
+    <script>
+bookTable();
+
+function bookTable(){
+    var bookInTable=document.createElement('ul');
+       for(i=0;i<myBooks.length;i++)
+       {
+    var bookInRow = document.createElement('li');
+    var bookList = document.createTextNode(myBooks[i]);
+    bookInRow.appendChild(bookList);
+    bookInTable.appendChild(bookInRow);
+       //  alert(myBooks[i]);
+         
+       }
+       document.body.appendChild(bookInTable);
+       let myObj = {
+           "mathematical_welding":{
+               "title":"mathematical_welding",
+            "language":"english",
+           "author":"tom"
+           },
+           "ansys":{
+               "title":"ansys",
+            "language":"spanish",
+           "author":"ali"
+           },
+           "abaqus":{
+               "title":"abaqus",
+            "language":"english",
+           "author":"reza"
+           },
+           "sysweld":{
+               "title":"sysweld",
+            "language":"french",
+           "author":"taghi"
+           },
+           "solidification":{
+               "title":"solidification",
+            "language":"arabic",
+           "author":"javad"
+           },
+           "casting":{
+               "title":"casting",
+            "language":"russian",
+           "author":"hassan"
+           },
+           "fluid_flow":{
+               "title":"fluid_flow",
+            "language":"farsi",
+           "author":"afshin"
+           },
+           "simulation":{
+               "title":"simulation",
+            "language":"dari",
+           "author":"zia"
+           },
+           "heat_transfer":{
+               "title":"heat_transfer",
+            "language":"hindi",
+           "author":"peter"
+           },
+           "extractive_metallurgy":{
+               "title":"extractive_metallurgy",
+            "language":"turkish",
+           "author":"jack"
+           },
+
+       }
+    }
+
+
+        </script>
+    
+</body>
+</html>

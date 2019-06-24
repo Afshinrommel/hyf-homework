@@ -1,0 +1,197 @@
+CREATE SCHEMA `sqlhomeworkweek2` ;
+CREATE TABLE `sqlhomeworkweek2`.`student` (
+  `idstudent` INT NOT NULL,
+  `studentnumber` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `surname` VARCHAR(45) NOT NULL,
+  `city` VARCHAR(45) NOT NULL,
+  `phone` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`idstudent`));
+
+
+CREATE TABLE `sqlhomeworkweek2`.`unit` (
+  `idunit` INT NOT NULL,
+  `idsection` INT NOT NULL,
+  `idstudent` INT NOT NULL,
+  `termnumber` INT NOT NULL,
+  `value` INT NOT NULL,
+  PRIMARY KEY (`idunit`));
+
+
+CREATE TABLE `sqlhomeworkweek2`.`section` (
+  `idsection` INT NOT NULL,
+  `idlesson`INT NOT NULL,
+  `idmaster`INT NOT NULL,
+  `days` VARCHAR(45) NOT NULL,
+  `hour` VARCHAR(45) NOT NULL,
+  `classnumber` INT NOT NULL,
+  PRIMARY KEY (`idsection`));
+  
+  
+CREATE TABLE `sqlhomeworkweek2`.`lesson` (
+  `idlesson` INT NOT NULL,
+  `code` INT NOT NULL,
+  `subject` VARCHAR(45) NOT NULL,
+  `value lesson` INT NOT NULL,
+  PRIMARY KEY (`idlesson`));
+
+
+CREATE TABLE `sqlhomeworkweek2`.`master` (
+  `idmaster` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `surname` VARCHAR(45) NOT NULL,
+    `codemelli` INT NOT NULL,
+  `phone`VARCHAR(45) NOT NULL,
+ `email` VARCHAR(45) NOT NULL,
+   `grade` VARCHAR(4) NOT NULL,
+  `field` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`idmaster`));
+  
+  
+  
+  
+  
+  
+   
+ALTER TABLE `sqlhomeworkweek2`.`section` 
+ADD INDEX `lessonId_idx` (`idlesson` ASC);
+;
+ALTER TABLE `sqlhomeworkweek2`.`section` 
+ADD CONSTRAINT `lessonId`
+  FOREIGN KEY (`idlesson`)
+  REFERENCES `sqlhomeworkweek2`.`lesson` (`idlesson`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
+ 
+
+ 
+ALTER TABLE `sqlhomeworkweek2`.`section` 
+ADD INDEX `masterID_idx` (`idmaster` ASC);
+;
+ALTER TABLE `sqlhomeworkweek2`.`section` 
+ADD CONSTRAINT `masterID`
+  FOREIGN KEY (`idmaster`)
+  REFERENCES `sqlhomeworkweek2`.`master` (`idmaster`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
+ 
+
+
+ 
+ALTER TABLE `sqlhomeworkweek2`.`unit` 
+ADD INDEX `sectionID_idx` (`idsection` ASC);
+;
+ALTER TABLE `sqlhomeworkweek2`.`unit` 
+ADD CONSTRAINT `sectionID`
+  FOREIGN KEY (`idsection`)
+  REFERENCES `sqlhomeworkweek2`.`section` (`idsection`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
+ 
+
+
+
+ 
+ALTER TABLE `sqlhomeworkweek2`.`unit` 
+ADD INDEX `studentID_idx` (`idstudent` ASC);
+;
+ALTER TABLE `sqlhomeworkweek2`.`unit` 
+ADD CONSTRAINT `studentID`
+  FOREIGN KEY (`idstudent`)
+  REFERENCES `sqlhomeworkweek2`.`student` (`idstudent`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
+ 
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  use sqlhomeworkweek2;
+  LOAD DATA LOCAL INFILE 'F:\\Class 08\\sql week 2 homework\\student.csv'
+     INTO TABLE student
+     FIELDS TERMINATED BY ','
+     ENCLOSED BY '"'
+     LINES TERMINATED BY '\n'
+     IGNORE 1 LINES;
+  
+    LOAD DATA LOCAL INFILE 'F:\\Class 08\\sql week 2 homework\\unit.csv'
+     INTO TABLE unit
+     FIELDS TERMINATED BY ','
+     ENCLOSED BY '"'
+     LINES TERMINATED BY '\n'
+     IGNORE 1 LINES;
+  
+      LOAD DATA LOCAL INFILE 'F:\\Class 08\\sql week 2 homework\\section.csv'
+     INTO TABLE section
+     FIELDS TERMINATED BY ','
+     ENCLOSED BY '"'
+     LINES TERMINATED BY '\n'
+     IGNORE 1 LINES;
+	 
+	 
+	       LOAD DATA LOCAL INFILE 'F:\\Class 08\\sql week 2 homework\\lesson.csv'
+     INTO TABLE lesson
+     FIELDS TERMINATED BY ','
+     ENCLOSED BY '"'
+     LINES TERMINATED BY '\n'
+     IGNORE 1 LINES;
+	 
+	 	       LOAD DATA LOCAL INFILE 'F:\\Class 08\\sql week 2 homework\\master1.csv'
+     INTO TABLE master
+     FIELDS TERMINATED BY ','
+     ENCLOSED BY '"'
+     LINES TERMINATED BY '\n'
+     IGNORE 1 LINES;
+	 
+	 SELECT name,surname from master 
+	 where grade ='ks';
+ 
+	 see all of teacher(master) which lesson they took at what time? we nee section master and lesson
+	 
+	 select master.field
+	 from master
+	 join section
+	 on master.idmaster = section.Idmaster
+	 where section.idlesson = 100663;
+	 
+	 	 select master.name,master.field,master.surname
+	 from master
+	 join section
+	 on master.idmaster = section.Idmaster
+	 where section.classnumber = 20
+	 and section.idlesson = 100830;
+	 
+	 
+	 select master.name,master.surname,lesson.subject
+	 from section
+	 join master
+	 on section.idmaster = master.idmaster
+	 join lesson
+	 on section.idlesson = lesson.idlesson
+	 
+	 where section.classnumber = 20
+	 and section.idlesson = 100830;
+	 
+	 
+	 

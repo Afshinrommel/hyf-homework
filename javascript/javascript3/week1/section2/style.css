@@ -1,0 +1,103 @@
+			#map {
+				position: absolute;
+				bottom: 90px;
+				right: 90px;
+				width: 600px;
+				height: 500px;
+				background-color: rgb(241, 125, 79);
+				overflow-y: auto;
+				box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+				padding: 30px;
+				border-radius: 8px;
+			}
+body {
+    background-color:rgb(90, 238, 139);
+	 margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+	}
+
+
+ .mapShowbyCode{
+	background-color:rgb(138, 148, 238);
+	left: 900px;
+	top: 60px;
+	height: 30px;
+	width: 180px;
+	font-size: 18px;
+	position: absolute;
+ }
+ 
+ .labelCity{
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+ }
+
+ #cityName{
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+ }
+ #imageCanvas{
+	position: absolute;
+	bottom: 440px;
+	right: 800px;
+	width: 300px;
+	height:200px;
+	background-color: rgb(231, 229, 94);
+	overflow-y: auto;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+	padding: 4px;
+	border-radius: 8px;
+ }
+ #getWeatherInfo{
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+ }
+
+
+
+
+#ulLng{
+	/*display: none;*/
+	position: absolute;
+	Top: 420px;
+	left: 100px;
+	background-color: rgb(220, 231, 114);
+
+}
+
+ #ulLat{
+/*	display: none;*/
+position: absolute;
+Top: 420px;
+left: 300px;
+background-color: rgb(220, 231, 64);
+
+ }
+ 
+ #lngForm{
+	position: absolute;
+	Top: 400px;
+	left: 103px;
+ }
+
+ #latForm{
+
+	position: absolute;
+	Top: 400px;
+	left: 303px;
+ }
+ #clear{
+	position: absolute;
+	Top: 380px;
+	left: 254px;
+ }

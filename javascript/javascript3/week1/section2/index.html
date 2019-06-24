@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html lang = 'en'>
+<head>
+	<meta charset="UTF-8">
+	<title>my Google Map and weather condition</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	  	  
+	<button id = "clear">Clear All</button>
+
+	<form id = "lngForm">
+		<input id="lngMap" type="text" placeholder="Longitude" required>
+	  </form>
+
+
+	  <form id= "latForm">
+		<input id="latMap" type="text" placeholder="Latitude" required>
+	  </form>
+
+	  <ul id= "ulLng"></ul>
+
+	  <ul id="ulLat"></ul>
+
+
+<section id="map">
+
+</section>
+
+
+<script 
+ src="https://maps.googleapis.com/maps/api/js?key=my_api_key&callback=initMap">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 
+<script  src="index.js"></script>
+</body>
+</html>
+

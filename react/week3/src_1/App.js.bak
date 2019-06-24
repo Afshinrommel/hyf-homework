@@ -1,0 +1,68 @@
+import React from 'react';
+import uniqueId from 'react-html-id';
+import ReactDOM from 'react-dom';
+import Create from './createList.js'
+class App extends React.Component {
+    constructor() {
+        super();
+        this.itemId = 0
+        this.state = {
+            id: "",
+            Date: "",
+            Task: "",
+            dateTasks: []
+        }
+    }
+    deleteEvent = (index) => {
+        var backUpArray = Object.assign([], this.state.dateTasks)
+        backUpArray.splice(index, 1);
+        this.setState({dateTasks: backUpArray})
+    }
+    setDate = (e) => {
+        this.setState({Date: e.target.value})
+    }
+    setTask = (e) => {
+        this.setState({Task: e.target.value})
+    }
+    addList = () => {
+        this.itemId = this.itemId + 1;
+        var backUpDateTask = Object.assign([], this.state.dateTasks)
+        backUpDateTask.push({id: this.itemId, Date: this.state.Date, Task: this.state.Task})
+        this.setState({dateTasks: backUpDateTask})
+    }
+    render() {
+        return (
+            <div>
+
+                <label>
+                    Task:
+                    <input type="text" placeholder="Type Task here.." onBlur={this.setTask}/>
+                </label>
+                Date:
+                <input type="text" placeholder="Type Date here.." onBlur={this.setDate}/>
+                <button onClick={this.addList}>Add to list</button>
+
+                <ul>
+                    {this
+                        .state
+                        .dateTasks
+                        .map((dateTask, index) => {
+                            return (<Create
+                                key={dateTask.id}
+                                id
+                                ={dateTask.id}
+                                Task={dateTask.Task}
+                                Date={dateTask.Date}
+                                delete={this
+                                .deleteEvent
+                                .bind(this, index)}/>)
+                        })
+}
+                </ul>
+
+            </div>
+        )
+    }
+
+}
+export default App;

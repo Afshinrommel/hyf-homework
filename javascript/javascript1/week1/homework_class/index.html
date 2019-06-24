@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Afshin's resume</title>
+      <meta charset="UTF-8"/>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body>
+      Input Hours:<input type="text" id = "hour" value= 0>
+      Input Minutes:<input type="text" id= "minute" value =0>
+      Input Seconds:<input type="text" id= "second" value =0>
+      Input Km:<input type= "text" id ="kilometer" value = 0>
+      <p>Click the button to converts X hours and Y minutes into minutes.</p>
+      <button onclick="hrandmintomin()">hours and minute to minute</button>
+      Answer: <input type="text" id="minutehour" value="">
+      <p>Click the button to converts X hours, Y minutes and Z seconds into seconds.</p>
+      <button onclick="hrandmintosec()">hours and minute and second to second</button>
+      Answer: <input type="text" id="minutehoursecond" value="">
+      <p>Click the button to converts km, to cm.</p>
+      <button onclick="kmtocm()">Kilometer to centmiter</button>
+      Answer: <input type="text" id="kmtocmx" value="">
+      <p>Click the button to converts km^2, to dcm^2.</p>
+      <button onclick="km2todcm2()">Kilometer^2 to dcimeter^2</button>
+      Answer: <input type="text" id="kmtodcmxq" value="">
+      <script>
+         function hrandmintomin() {
+           let hr = Number(document.getElementById("hour").value);
+            let min = Number(document.getElementById("minute").value);
+            let result = hr * 60 +min;
+                document.getElementById("minutehour").value = result;
+         }
+         function hrandmintosec() {
+         	let hr = Number(document.getElementById("hour").value);
+            let min = Number(document.getElementById("minute").value);
+              let sec = Number(document.getElementById("second").value);
+            let result = hr * 3600 +min * 60 + sec;
+                document.getElementById("minutehoursecond").value = result;
+         }
+         function kmtocm() {
+           let km = Number(document.getElementById("kilometer").value);
+            let result = km * 100000 ;
+            result = result.toExponential(5)
+                document.getElementById("kmtocmx").value = result;
+         }
+         function km2todcm2() {
+           let km = Number(document.getElementById("kilometer").value);
+            let result =Number(km * 10000* 10000)  ;
+            result = result.toExponential(5)
+                document.getElementById("kmtodcmxq").value = result;
+         }								
+      </script>
+   </body>
+</html>

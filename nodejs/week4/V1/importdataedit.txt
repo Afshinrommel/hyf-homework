@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Mario Craig",
+        "classId": 5,
+        "email": "pabihazuv@lerohfo.bt",
+        "phone": "(515) 709-3802"
+    },
+    {
+        "name": "Afshina",
+        "classId": 1,
+        "email": "roc@meiz.ms",
+        "phone": "(322) 737-4388"
+    }
+]

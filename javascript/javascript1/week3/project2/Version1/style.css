@@ -1,0 +1,31 @@
+ 
+	
+   	body {
+    background-color:darksalmon;
+	 margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 90px;
+	background-color:yellow;
+	}
+	
+	
+	
+	
+	h{
+	border: 2px blue solid;
+	padding: 25px;
+	background-color: yellow;
+	}
+	
+	li{
+		background-color: pink;
+		font-size:25px;
+		border:2px grey solid;
+		}
+	
+	ul{
+		background-color: pink;
+		font-size:25px;
+		border:2px grey solid;
+		}

@@ -1,0 +1,132 @@
+#welcomeTitle{
+    position :absolute;
+    left : 10px;
+    top : 10px;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#titleMenu{
+    position :absolute;
+    left : 330px;
+    top : 100px;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+
+li{
+    position: relative;
+    left : 300px;
+    top : 140px;
+    color: black;
+    font-size: 22px;
+}
+
+
+li:nth-child(odd) {
+    color: rgb(29, 2, 2);
+    background: #ebe6a9;
+    font-size: 22px;
+    padding: 5px;
+}
+li:nth-child(even) {
+    color: rgb(15, 15, 41);
+    background: #dad6d6;
+    font-size: 22px;
+    padding: 5px;
+}
+
+
+#tabList{
+    position: absolute;
+    left : 660px;
+    top :100px;
+}
+
+#addProductId{
+    position :absolute;
+    left : 140px;
+    top : 40px;
+    height : 30px;
+    width : 140px;
+    font-size : 18px;
+    background-color: rgb(225, 243, 174);
+    font-display:swap;
+    text-align: center; 
+    margin:25px;  
+
+}
+
+#removeProduct{
+ position :absolute;
+left :300px;
+top : 40px;
+height : 30px;
+width : 140px;
+font-size : 18px;
+background-color:rgb(225, 243, 174);
+font-display:swap;
+text-align: center;
+margin:25px;
+}
+
+
+
+#getPrice{
+    position :absolute;
+    left : 470px;
+    top : 40px;
+    height : 30px;
+    width : 140px;
+    font-size : 18px;
+    background-color: rgb(225, 243, 174);
+    font-display:swap;
+    text-align: center;  
+    margin:25px;
+}
+
+body{
+
+    background-color: rgb(30, 202, 136);
+}
+
+
+
+#selectedCurrency{
+    position :absolute;
+    left : 640px;
+    top : 40px;
+    height : 30px;
+    width : 180px;
+    font-size : 18px;
+    background-color: rgb(225, 243, 174);
+    font-display:swap;
+    text-align: center;  
+    margin:25px;
+}
+
+
+#selectedValue{
+    position :absolute;
+    left : 840px;
+    top : 40px;
+    height : 30px;
+    width : 180px;
+    font-size : 18px;
+    background-color: rgb(225, 243, 174);
+    font-display:swap;
+    text-align: center; 
+    margin:25px; 
+}

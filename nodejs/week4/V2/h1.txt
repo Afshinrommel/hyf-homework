@@ -1,0 +1,18 @@
+http://172.16.251.243:8001/api/students?name=Mario Craig
+http://172.16.251.243:8001/api/students/8
+
+for put method we need an array with two object the first one is information of student to delete and second one is information after correction.
+[{
+        "name": "Mario Craig",
+        "classId": 5,
+        "email": "pabihazuv@lerohfo.bt",
+        "phone": "(515) 709-3802"
+    },{
+    	        "name": "Mario Craig andrei",
+        "classId": 6,
+        "email": "pabihazuv@lerohfo.bt",
+        "phone": "(615) 709-3802"
+    	
+    	
+    }]
+    

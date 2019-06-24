@@ -1,0 +1,121 @@
+#circleRadius{
+ position :absolute;
+left :300px;
+top : 40px;
+height : 30px;
+width : 140px;
+font-size : 18px;
+background-color:rgb(225, 243, 174);
+font-display:swap;
+text-align: center;
+}
+
+#drawCircle{
+    position :absolute;
+    left : 140px;
+    top : 40px;
+    height : 30px;
+    width : 140px;
+    font-size : 18px;
+    background-color: rgb(225, 243, 174);
+    font-display:swap;
+    text-align: center;   
+
+}
+
+#deleteCircle{
+    position :absolute;
+    left : 470px;
+    top : 40px;
+    height : 30px;
+    width : 140px;
+    font-size : 18px;
+    background-color: rgb(225, 243, 174);
+    font-display:swap;
+    text-align: center;  
+}
+
+body{
+
+    background-color: rgb(30, 202, 136);
+
+}
+
+
+
+
+
+
+#fillCircle{
+    position :absolute;
+    left : 600px;
+    top : 40px;
+    height : 30px;
+    width : 140px;
+    font-size : 18px;
+    background-color: rgb(225, 243, 174);
+    font-display:swap;
+    text-align: center;  
+}
+
+
+#designPattern{
+    width:600px;
+     height:300px;
+    background-color: antiquewhite;
+ left : 100px;
+ top :100px;
+}
+
+#drawCircleRange{
+    position :absolute;
+    left : 780px;
+    top : 40px;
+    height : 30px;
+    width : 140px;
+}
+
+#labelCircle{
+    position :absolute;
+    left : 890px;
+    top : 70px;
+    height : 30px;
+    width : 140px;
+    font-size: 18px;
+
+}
+
+
+#circleByClass{
+    position :absolute;
+    left : 700px;
+    top : 100px;
+    height : 30px;
+    width : 140px;
+    font-size: 18px;
+}
+
+
+#rgbpartone{
+    position :absolute;
+    left : 780px;
+    top : 140px;
+    height : 30px;
+    width : 140px;
+}
+#rgbparttwo{
+    position :absolute;
+    left : 780px;
+    top : 180px;
+    height : 30px;
+    width : 140px;
+}
+
+#rgbpartthree{
+    position :absolute;
+    left : 780px;
+    top : 220px;
+    height : 30px;
+    width : 140px;
+}
+

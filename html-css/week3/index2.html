@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Page Title</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <script>
+         function myFunction() {
+         x = document.getElementById("psw").value;
+         y= document.getElementById("rpsw").value;
+         z= document.getElementById("emai").value;
+         if((x == "" || y =="") || z ==""){
+             alert("All of necessary items must be filled out");
+         window.open("index2.html");
+         }else{
+             window.open("index3.html");	
+         }
+         }
+      </script>
+   </head>
+   <body>
+      <div class="row">
+         <div class="col-4 menu">
+            <ul>
+               <li><img src="http://pngimg.com/uploads/windows_logos/windows_logos_PNG35.png" id="casio" alt="Image is not availiable"></li>
+            </ul>
+         </div>
+         <div class="col-4 menu">
+            <ul>
+            </ul>
+         </div>
+         <div class="col-4 menu">
+            <ul>
+               <li> <a href="#home">home|</a> </li>
+               <li><a href="#about">about|</a> </li>
+               <li> <a href="services">our services|</a> </li>
+               <li> <a href="office">contact|</a> </li>
+            </ul>
+         </div>
+         <div class="col-12 menu">
+            Sign up to your customtailor.com
+         </div>
+         <div class="col-12 menu">
+            <p>step 2/4- how can we reach you?</p>
+            <progress value="50" max="100">
+            </progress>
+         </div>
+         <div class="col-10 menu ">
+            <p> We will probably need to stay in touch somehow.Let is know how we can reach you?</p>
+         </div>
+         <div class="col-3 menu">
+         </div>
+         <div class="col-4 menu offset-md-3">
+            <label for="emai">Email*:</label>
+            <input type="text" id="emai">
+         </div>
+         <div class="col-4 menu offset-md-3">
+            <label for="tele">phone:</label>
+            <input type="text" id="tele">
+         </div>
+         <div class="col-3 menu">
+         </div>
+         <div class="col-9 menu ">
+            <label for="psw">password*:</label>
+            <input type="password" id="psw">
+         </div>
+         <div class="col-3 menu">
+         </div>
+         <div class="col-9 menu ">
+            <label for="rpsw">Renter password*:</label>
+            <input type="password" id="rpsw">
+         </div>
+         <div class="col-3 menu">
+         </div>
+         <div class="col-9 menu ">
+            <p> I want to sign up for the newsletter</p>
+         </div>
+         <div class="col-2 menu">
+         </div>
+         <div class="col-3 menu">
+            <label for="weekly">
+            <input type="checkbox" id="weekly" onclick=" " />
+            Weekly news
+            </label>
+         </div>
+         <div class="col-3 menu">
+            <label for="Monthly">
+            <input type="checkbox" id="Monthly" onclick=" " />
+            Monthly news
+            </label>
+         </div>
+         <div class="col-3 menu">
+            <label for="notsend">
+            <input type="checkbox" id="notsend" onclick=" " />
+            Do not send me news
+            </label>
+         </div>
+         <div class="col-8 menu">
+         </div>
+         <div class="col-4 menu">
+            <button onclick="myFunction()">Next Page</button>
+         </div>
+      </div>
+      <div class="footer">
+         <p>Resize the browser window to see how the content respond to the resizing.</p>
+      </div>
+   </body>
+</html>

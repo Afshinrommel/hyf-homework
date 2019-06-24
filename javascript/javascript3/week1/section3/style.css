@@ -1,0 +1,34 @@
+ 
+body {
+    background-color:rgb(90, 238, 139);
+	 margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+	}
+
+ 
+ 
+ #imageCanvas{
+	position: absolute;
+	bottom: 440px;
+	right: 800px;
+	width: 300px;
+	height:200px;
+	background-color: rgb(231, 229, 94);
+	overflow-y: auto;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+	padding: 4px;
+	border-radius: 8px;
+ }
+ 
+
+
+
+
+ 
+ #clear{
+	position: absolute;
+	Top: 380px;
+	left: 254px;
+ }

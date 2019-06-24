@@ -1,0 +1,147 @@
+   * {
+         box-sizing: border-box;
+         }
+         .row::after {
+         content: "";
+         clear: both;
+         display: block;
+         }
+         [class*="col-"] {
+         float: left;
+         padding: 15px;
+         }
+         html {
+         font-family: "Lucida Sans", sans-serif;
+         }
+         .header {
+         background-color:orangered;
+         color: #ffffff;
+         padding: 15px;
+         text-align: center;
+         }
+         .menu ul {
+         margin:  10px;
+         padding: 10px;
+         }
+         .menu li {
+         padding: 8px;
+         margin-bottom: 7px;
+         color: #ffffff;
+         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+         }
+         .row2{
+         background-color: #33b5e5;
+         padding: 15px;
+         color: #ffffff;
+         text-align: center;
+         font-size: 14px;
+         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+         }
+         .footer {
+         background-color: #0099cc;
+         color: #ffffff;
+         text-align: center;
+         font-size: 12px;
+         padding: 15px;
+         }
+         /* For desktop: */
+         .col-1 {width: 8.33%;}
+         .col-2 {width: 16.66%;}
+         .col-3 {width: 25%;}
+         .col-4 {width: 33.33%;}
+         .col-5 {width: 41.66%;}
+         .col-6 {width: 50%;}
+         .col-7 {width: 58.33%;}
+         .col-8 {width: 66.66%;}
+         .col-9 {width: 75%;}
+         .col-10 {width: 83.33%;}
+         .col-11 {width: 91.66%;}
+         .col-12 {width: 100%;}
+         @media only screen and (max-width: 768px) {
+         /* For mobile phones: */
+         [class*="col-"] {
+         width: 100%;
+         }
+         }
+         #askfm{
+         padding-right: 0px;
+         width : 60px;
+         }
+         #facebook{
+         padding-right: 0px;
+         width : 60px;
+         }
+         #twitter{
+         padding-right: 0px;
+         width : 60px;
+         }
+         #googlep{
+         padding-right: 0px;
+         width : 60px;
+         }
+         #instagram{
+         padding-right: 0px;
+         width : 60px;
+         }
+         #linkedin{
+         padding-right: 0px;
+         width : 60px;
+         }
+         #messenger{
+         padding-right: 0px;
+         width : 60px;
+         }
+         #snapchat{
+         padding-right: 0px;
+         width : 60px;
+         }
+         #reddit{
+         padding-right: 0px;
+         width : 60px;
+         }
+         #skype{
+         padding-right: 0px;
+         width : 60px;
+         }
+         #youtube{
+         padding-right: 0px; 
+         width : 60px;
+         }
+         #pinterest{
+         width : 60px;
+         }
+         #webs{
+         margin-left: 60px;
+         width: 80%; 
+         height: auto;
+         }
+         .chap{
+         font-family: Verdana;
+         font-size: 13px;
+         text-align: justify;
+         float: left;
+         font-weight: bold;
+         }
+         .rast{
+         font-family: Verdana;
+         font-size: 13px;
+         text-align: justify;
+         float: left;
+         font-weight: bold;
+         }
+         .nomark{
+         list-style-type: none;
+         }
+         .mapouter{
+         text-align:right;
+         height:250px;width:190px;
+         }
+         .gmap_canvas {
+         overflow:hidden;
+         background:none!important;
+         height:250px;width:190px;
+         }
+         #special{
+         text-align: left;
+         font-size: 20px;
+         }
