@@ -1,0 +1,294 @@
+ <html lang="en">
+
+ <head>
+ 	<meta charset="utf-8">
+
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 	<title>CRUD Node.js and Mysql</title>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+
+
+ <body>
+
+ 	<div class="container">
+ 		<h1><%= "Create database for user" %></h1>
+ 		<form method="get" action="/user/db">
+ 			<button class="btn btn-success" data-toggle="modal" data-target="#myModalAdd">Create dbs</button>
+ 		</form>
+
+
+ 		<form method="get" action="/users">
+ 			<button class="btn btn-success" data-toggle="modal" data-target="#myModalAdd">usernames</button>
+ 		</form>
+
+
+ 		<h1><%= "User form information" %></h1>
+ 		<form method="post" action="/user/add">
+ 			<label> userid:</label><br/>
+ 			<input type="text" name="userid" /><br/>
+ 			<label> username:</label><br/>
+ 			<input type="text" name="username" /><br/>
+ 			<label> phone:</label><br/>
+ 			<input type="text" name="phone" /><br/>
+ 			<label> email:</label><br/>
+ 			<input type="text" name="email" /><br/>
+ 			<label>PassWord : </label><br />
+ 			<input type="password" name="password"><br />
+
+ 			<button class="btn btn-success" data-toggle="modal" data-target="#myModalAdd">Add User</button>
+ 		</form>
+
+
+ 		<table class="table table-striped" id="mytable">
+ 			<tr>
+ 				<td>
+ 					<a href="javascript:void(0);" class="btn btn-sm btn-info edit" userid="{{userid}}"
+ 						username="{{username}}" phone="{{phone}}">Edit</a>
+ 					<a href="javascript:void(0);" class="btn btn-sm btn-danger delete"
+ 						data-id="{{ product_id }}">Delete</a>
+ 				</td>
+ 			</tr>
+ 		</table>
+
+ 		<form action="/updateuser" method="post">
+ 			<div class="modal fade" id="EditModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+ 				aria-hidden="true">
+ 				<div class="modal-dialog" role="document">
+ 					<div class="modal-content">
+ 						<div class="modal-header">
+ 							<h5 class="modal-title" id="exampleModalLabel">edit user</h5>
+ 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+ 								<span aria-hidden="true">&times;</span>
+ 							</button>
+ 						</div>
+ 						<div class="modal-body">
+ 							<div class="form-group">
+ 								<input type="text" name="userid" class="form-control product_name" placeholder="userid"
+ 									required>
+ 							</div>
+ 							<div class="form-group">
+ 								<input type="text" name="username" class="form-control price" placeholder="username"
+ 									required>
+ 							</div>
+ 							<div class="form-group">
+ 								<input type="text" name="phone" class="form-control price" placeholder="phone"
+ 									required>
+ 							</div>
+ 							<div class="form-group">
+ 								<input type="text" name="email" class="form-control price" placeholder="email"
+ 									required>
+ 							</div>
+ 							<div class="form-group">
+ 								<input type="text" name="password" class="form-control price" placeholder="password"
+ 									required>
+ 							</div>
+ 						</div>
+ 						<div class="modal-footer">
+ 							<input type="hidden" name="id" class="product_id">
+ 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+ 							<button type="submit" class="btn btn-primary">Update</button>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</form>
+
+ 		<!-- Delete user Modal-->
+ 		<form id="add-row-form" action="/deleteuser" method="post">
+ 			<div class="modal fade" id="DeleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+ 				aria-hidden="true">
+ 				<div class="modal-dialog">
+ 					<div class="modal-content">
+ 						<div class="modal-header">
+ 							<h5 class="modal-title" id="myModalLabel">Delete user</h5>
+ 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+ 									aria-hidden="true">&times;</span></button>
+ 						</div>
+ 						<div class="modal-body">
+ 							<strong>Are You Sure To Delete This Data?</strong>
+ 						</div>
+ 						<div class="form-group">
+ 							<input type="text" name="userid" class="form-control product_name" placeholder="userid"
+ 								required>
+ 						</div>
+ 						<div class="modal-footer">
+ 							<input type="hidden" name="userid" class="form-control product_id2" required>
+ 							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+ 							<button type="submit" class="btn btn-success">Delete</button>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</form>
+
+ 		<h1><%= "Podcast form information" %></h1>
+ 		<form method="post" action="/podcast/add">
+ 			<label> userid:</label><br/>
+ 			<input type="text" name="userid" /><br/>
+ 			<label> title:</label><br/>
+ 			<input type="text" name="title" /><br/>
+ 			<label> content:</label><br/>
+ 			<input type="text" name="content" /><br/>
+ 			<label> year:</label><br/>
+ 			<input type="text" name="year" /><br/>
+ 			<button class="btn btn-success" data-toggle="modal" data-target="#myModalAdd">Add podcast</button>
+ 		</form>
+ 		<table class="table table-striped" id="podcast">
+ 			<tr>
+ 				<td>
+ 					<a href="javascript:void(0)" class="btn btn-sm btn-info edit">EditP</a>
+ 					<a href="javascript:void(0)" class="btn btn-sm btn-danger delete">DeleteP</a>
+ 				</td>
+ 			</tr>
+ 		</table>
+ 		<form action="/updatepodcast" method="post">
+ 			<div class="modal fade" id="EditModalx" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+ 				aria-hidden="true">
+ 				<div class="modal-dialog" role="document">
+ 					<div class="modal-content">
+ 						<div class="modal-header">
+ 							<h5 class="modal-title" id="exampleModalLabelx">edit podcast</h5>
+ 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+ 								<span aria-hidden="true">&times;</span>
+ 							</button>
+ 						</div>
+ 						<div class="modal-body">
+ 							<div class="form-group">
+ 								<input type="text" name="userid" class="form-control product_name" placeholder="userid"
+ 									required>
+ 							</div>
+ 							<div class="form-group">
+ 								<input type="text" name="content" class="form-control price" placeholder="content"
+ 									required>
+ 							</div>
+ 							<div class="form-group">
+ 								<input type="text" name="title" class="form-control price" placeholder="title"
+ 									required>
+ 							</div>
+ 							<div class="form-group">
+ 								<input type="text" name="year" class="form-control price" placeholder="year" required>
+ 							</div>
+ 						</div>
+ 						<div class="modal-footer">
+ 							<input type="hidden" name="id" class="product_id">
+ 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+ 							<button type="submit" class="btn btn-primary">Update</button>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</form>
+
+ 		<form id="add-row-form" action="/deletepodcast" method="post">
+ 			<div class="modal fade" id="DeleteModalx" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+ 				aria-hidden="true">
+ 				<div class="modal-dialog">
+ 					<div class="modal-content">
+ 						<div class="modal-header">
+ 							<h5 class="modal-title" id="myModalLabel">Delete Podcast</h5>
+ 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+ 									aria-hidden="true">&times;</span></button>
+ 						</div>
+ 						<div class="modal-body">
+ 							<strong>Are You Sure To Delete This Data?</strong>
+ 						</div>
+ 						<div class="form-group">
+ 							<input type="text" name="userid" class="form-control product_name" placeholder="userid"
+ 								required>
+ 						</div>
+ 						<div class="modal-footer">
+ 							<input type="hidden" name="userid" class="form-control product_id2" required>
+ 							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+ 							<button type="submit" class="btn btn-success">Delete</button>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</form>
+
+
+ 		<h1><%= "User information" %></h1>
+ 		<form method="post" action="/users/userid">
+ 			<label> userid:</label><br/>
+ 			<input type="text" name="userid" /><br/>
+ 			<button class="btn btn-success" data-toggle="modal" data-target="#myModalAdd">get user</button>
+ 		</form>
+ 	</div>
+
+
+ 	<script>
+ 		$(document).ready(function () {
+ 			//showing data to modal for edit record
+ 			$('#mytable').on('click', '.edit', function () {
+ 				var userid = $(this).data('userid');
+ 				var username = $(this).data('username');
+ 				var phone = $(this).data('phone');
+ 				var email = $(this).data('email');
+ 				var password = $(this).data('password');
+ 				$('#EditModal').modal('show');
+ 				$('.username').val(username);
+ 				$('.phone').val(phone);
+ 				$('.userid').val(userid);
+ 				$('.email').val(email);
+ 				$('.password').val(password);
+ 			});
+ 			$('#podcast').on('click', '.edit', function () {
+ 				var userid = $(this).data('userid');
+ 				var content = $(this).data('content');
+ 				var title = $(this).data('title');
+ 				var year = $(this).data('year');
+ 				$('#EditModalx').modal('show');
+ 				$('.username').val(username);
+ 				$('.content').val(content);
+ 				$('.title').val(year);
+ 				$('.year').val(title);
+ 			});
+
+ 			$('#mytable').on('click', '.delete', function () {
+ 				var userid = $(this).data('userid');
+ 				$('#DeleteModal').modal('show');
+
+ 			});
+ 			$('#podcast').on('click', '.delete', function () {
+ 				var userid = $(this).data('userid');
+ 				$('#DeleteModalx').modal('show');
+ 			});
+ 		});
+ 	</script>
+
+
+
+ </body>
+
+
+ <!-- <script>
+let me = document.getElementById("man");
+me.addEventListener("click",()=>{
+	alert("Hello!");
+	var name = prompt("What is your name?");
+	console.log(name);
+	let inputText = document.createElement('INPUT'); 
+	inputText.setAttribute("name","title");
+	inputText.setAttribute("value", name);
+//inputText.setAttribute("value", "type number"); 
+//inputText.setAttribute("class", "inputNumber"); 
+//document.body.appendChild(inputText); 
+
+
+
+});
+
+ 
+</script> -->
+ <!-- <form method="post" action="/user/userid/edit">
+	<button  id= "man" class="btn btn-sm btn-info edit" data-toggle="modal" data-target="#myModalAdd">Edit User</button>
+	
+	</form> -->
